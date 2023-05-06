@@ -1,0 +1,11 @@
+.footer__column-links-list {
+margin: 10px 0;
+}
+
+.footer__column-links-list:first-child {
+margin-top: 0;
+}
+
+.footer__column-links-list:last-child {
+margin-bottom: 16px;
+}
