@@ -9,5 +9,4 @@
 - Анимация и трансформация
 - Iframe
 
-Ссылка на страницу: https://andrewbedarev.github.io/how-to-learn-plus/
-test
+Ссылка на проект: https://andrewbedarev.github.io/how-to-learn-plus/

@@ -33,7 +33,7 @@
 
       <section class = "description" aria-label="Секция со статьей">
         <div class = "two-columns">
-          <p class = "two-columns__brief">Главные проблемы в обучении</p>
+          <h2 class = "two-columns__brief">Главные проблемы в обучении</h2>
           <div class = "two-columns__main-text">
             <p class = "two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.
             </p>
@@ -82,7 +82,7 @@
 
 
       <section class = "video">
-        <h3 class = "section-title">Видео на TED</h3>
+        <h2 class = "section-title">Видео на TED</h2>
         <p class = "section-subtitle">Для тех, кто любит прокрастинировать</p>
         <ul class = "video__iframes">
           <li><iframe class = "video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind of a master procrastinator | TED"
@@ -218,17 +218,17 @@
         <h2 class = "section-title">Полезные ресурсы</h2>
         <p class = "section-subtitle">Больше материалов о техниках и лайфхаков обучения</p>
         <ul class = "resources__logo-zone">
-          <li><a href = "#">
-            <img class = "resources__link" src = "./images/resources/resources-arzamas.svg" alt = "Логотип проекта, посвященного истории культуры 'Арзамас'">
+          <li><a href = "#" class = resources__link>
+            <img class = "resources__logo" src = "./images/resources/resources-arzamas.svg" alt = "Логотип проекта, посвященного истории культуры 'Арзамас'">
           </a></li>
-          <li><a href = "#">
-            <img class = "resources__link" src = "./images/resources/resources-n1.svg" alt = "Логотип российского научно-популярного интернет-издания о науке и технологиях 'N+1'">
+          <li><a href = "#" class = resources__link>
+            <img class = "resources__logo" src = "./images/resources/resources-n1.svg" alt = "Логотип российского научно-популярного интернет-издания о науке и технологиях 'N+1'">
           </a></li>
-          <li><a href = "#">
-          <img class = "resources__link" src = "./images/resources/resources-strelka.svg" alt = "Логотип института медиа, архитектуры и дизайна 'Стрелка'">
+          <li><a href = "#" class = resources__link>
+          <img class = "resources__logo" src = "./images/resources/resources-strelka.svg" alt = "Логотип института медиа, архитектуры и дизайна 'Стрелка'">
           </a></li>
-          <li><a href = "#">
-          <img class = "resources__link" src = "./images/resources/resources-polka.svg" alt = "Логотип интернет-проекта по истории русской литературы 'Полка'">
+          <li><a href = "#" class = resources__link>
+          <img class = "resources__logo" src = "./images/resources/resources-polka.svg" alt = "Логотип интернет-проекта по истории русской литературы 'Полка'">
           </a></li>  
         </ul>
       </section>
@@ -238,28 +238,28 @@
 
 
       <footer class = "footer">
-      <nav class = "footer__columns">
+      <div class = "footer__columns">
         <div class = "footer__column footer__column_content_copyright">
           <div class = "logo logo_place_footer"></div>
           <p class = "footer__author">&copy; Андрей Бедарев</p>
         </div>  
-        <div class = "footer__column footer__column_content_info">
+        <nav class = "footer__column footer__column_content_info">
           <h2 class = "footer__column-heading">О практикуме</h2>
           <ul class = "footer__column-links">
             <li class="footer__column-link-list"><a href="#" class="footer__column-link">Главная</a></li>
             <li class="footer__column-links-list"><a href="#" class="footer__column-link">Концепция</a></li>
             <li class="footer__column-links-list"><a href="#" class="footer__column-link">Наставники</a></li>
           </ul>
-        </div>  
-        <div class = "footer__column footer__column_content_social">
+        </nav>  
+        <nav class = "footer__column footer__column_content_social">
           <h2 class = "footer__column-heading">Соцсети</h2>
           <ul class = "footer__column-links">
             <li class = "footer__column-links-list"><a href = "#" class = "footer__column-link"><img src = "images/footer/youtube-icon.svg" class = "footer__social-icon" alt = "иконка видеохостинга 'Youtube'">Youtube</a></li>
             <li class = "footer__column-links-list"><a href = "#" class = "footer__column-link"><img src = "images/footer/vk_color_white.svg" class = "footer__social-icon" alt = "иконка социальной сети 'Вконтакте'">ВКонтакте</a></li>
             <li class = "footer__column-links-list"><a href = "#" class = "footer__column-link"><img src = "images/footer/tiktok-icon.svg" class = "footer__social-icon" alt = "иконка сервиса для создания и просмотра коротких видео 'Тикток'">TikTok</a></li>
           </ul>
-        </div>
-      </nav>  
+        </nav>
+      </div>  
     </footer>
 
 

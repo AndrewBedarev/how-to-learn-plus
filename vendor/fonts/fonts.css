@@ -18,26 +18,3 @@
     font-weight: 400;
     font-family: "Inter";
 }
-
-.fonts__bold {
-    font-family: "Inter", sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.fonts__semi-bold {
-    font-family: "Inter", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-}
-
-.fonts__regular {
-    font-family: "Inter", sans-serif;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-.non-phont {
-    font-size: 30px;
-    font-weight: 400;
-}
